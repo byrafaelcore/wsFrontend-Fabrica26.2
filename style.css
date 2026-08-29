@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,3 +73,39 @@ header img {
     width: 70px;
 }
 
+.banner {
+    height: 100vh;
+    background-image:
+        linear-gradient(
+            to bottom,
+            transparent 60%,
+            #f99e1a 100%
+        ),
+        url("../img/Overwatch_game_poster.webp");
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+
+.banner-texto h1 {
+    font-family: "Overwatch";
+    font-size: 100px;
+}
+
+.banner-texto p {
+    font-family: "Overwatch";
+    font-size: 60px;
+    text-align: center;
+}
