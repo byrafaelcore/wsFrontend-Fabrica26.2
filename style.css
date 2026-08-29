@@ -133,6 +133,7 @@ header img {
     padding: 40px;
     align-items: center;
     justify-content: center;
+    box-shadow: 4px 4px 40px black;
 }
 
 .card {
@@ -145,12 +146,14 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px
+    gap: 10px;
 }
 
 .card:hover {
     transition: ease 0.3s;
     transform: scale(1.1);
+    box-shadow: 4px 4px 40px black;
+    z-index: 2;
 }
 
 .card img {
