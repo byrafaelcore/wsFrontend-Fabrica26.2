@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #405275;
+    background-color: #218ffe;
 }
 
 .logo {
@@ -25,7 +25,7 @@ body {
     height: 70px;
 }
 
-.logo h3 {
+.logo h2 {
     font-family: "Overwatch";
     font-size: 50px;
 }
@@ -40,7 +40,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 15px;
-    background-color: #dedede;
+    background-color:#dedede;
     position: fixed;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ header{
     z-index: 10;
 }
 
-header h3 {
+header h2 {
     font-family: "Overwatch";
     font-size: 50px;
     ;
@@ -79,7 +79,7 @@ header img {
         linear-gradient(
             to bottom,
             transparent 60%,
-            #405275 100%
+            #218ffe 100%
         ),
         url("../img/Overwatch_game_poster.webp");
     background-size: cover;
@@ -97,15 +97,70 @@ header img {
     justify-content: center;
     align-items: center;
     margin-top: 500px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.389);
 }
 
 .banner-texto h1 {
     font-family: "Overwatch";
     font-size: 100px;
+    color: #f99e1a;
 }
 
 .banner-texto p {
     font-family: "Overwatch";
     font-size: 60px;
     text-align: center;
+    color:#000000;
+}
+
+.titulo-personagens {
+    font-family: "Overwatch";
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.container {
+    background-color: #43484c;
+    width: 1400px;
+    height: 880px;
+    margin: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(4, 380px);
+    gap: 30px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color:#f99e1a;
+    width: 300px;
+    height: 380px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card h3{
+    font-family: "Overwatch";
+    font-size: 30px;
+}
+
+.card p {
+    font-family: "Overwatch";
+    font-size: 24px;
 }
