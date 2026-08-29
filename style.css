@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Overwatch";
+    src: url(/fonts/big_noodle_titling.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #43484c;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.logo h3 {
+    font-family: "Overwatch";
+    font-size: 50px;
+}
+
+li, a {
+    font-size: 18px;
+    color: #43484c;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: #dedede;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header h3 {
+    font-family: "Overwatch";
+    font-size: 50px;
+    ;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav li a:hover {
+    color: #f99e1a;
+    cursor: pointer;
+}
+
+header img {
+    height: 70px;
+    width: 70px;
+}
+
