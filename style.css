@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #43484c;
+    background-color: #405275;
 }
 
 .logo {
@@ -79,7 +79,7 @@ header img {
         linear-gradient(
             to bottom,
             transparent 60%,
-            #f99e1a 100%
+            #405275 100%
         ),
         url("../img/Overwatch_game_poster.webp");
     background-size: cover;
