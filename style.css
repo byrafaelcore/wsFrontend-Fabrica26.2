@@ -135,6 +135,7 @@ header img {
     background-color: white;
     border-radius: 20px;
     padding: 0px 20px;
+    box-shadow: 2px 2px 10px #000000;
 }
 
 .botao-pesquisa{
