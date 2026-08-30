@@ -98,5 +98,5 @@ O script `script.js` faz a requisição com `fetch`, cria e renderiza os cards d
 ## Link da Aplicação 🌐
 
 ```
-[https://overfast-api.tekrop.fr/heroes](https://ws-frontend-fabrica26-2-mu.vercel.app/)
+https://ws-frontend-fabrica26-2-mu.vercel.app
 ```
