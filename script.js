@@ -15,11 +15,12 @@ function mostrarHerois(listaDosHerois) {
 
     container.innerHTML = "";
     
-    listaDosHerois.forEach(({ portrait, role, name }) => {
+    listaDosHerois.forEach(({ portrait, role, name, subrole }) => {
 
         console.log(portrait);
         console.log(name);
         console.log(role);
+        console.log(subrole);
 
         const card = document.createElement("div");
         card.classList.add("card");
@@ -28,6 +29,7 @@ function mostrarHerois(listaDosHerois) {
             <img src="${portrait}" alt="${name}">
             <h3>${name}</h3>
             <p>${role}</p>
+            <p>${subrole}</p>
         `;
 
         console.log(portrait);
