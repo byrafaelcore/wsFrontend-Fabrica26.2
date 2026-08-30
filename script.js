@@ -4,9 +4,18 @@ async function pegarDadosApi() {
 
     const respostaApi = await fetch(url);
     const dadosDosHerois = await respostaApi.json();
-    const container = document.querySelector(".container");
     
-    dadosDosHerois.forEach(({ portrait, role, name }) => {
+    mostrarHerois(dadosDosHerois);
+    pesquisarHerois(dadosDosHerois);
+}
+
+function mostrarHerois(listaDosHerois) {
+
+    const container = document.querySelector(".container");
+
+    container.innerHTML = "";
+    
+    listaDosHerois.forEach(({ portrait, role, name }) => {
 
         console.log(portrait);
         console.log(name);
@@ -24,7 +33,22 @@ async function pegarDadosApi() {
         console.log(portrait);
 
         container.appendChild(card);
+}
+    )}
+
+function pesquisarHerois(dadosDosHerois) {
+    const pesquisa = document.querySelector("#pesquisa");
+    const botaoPesquisa = document.querySelector(".botao-pesquisa");
+
+    botaoPesquisa.addEventListener("click", (evento) => {
+        evento.preventDefault();
+        const textoDigitado = pesquisa.value.toLowerCase();
+        const heroisFiltrados = dadosDosHerois.filter(heroi => {
+            return heroi.name.toLowerCase().includes(textoDigitado);
+        });
+        
+        mostrarHerois(heroisFiltrados);
     });
 }
 
-pegarDadosApi();
+pegarDadosApi()

@@ -124,6 +124,31 @@ header img {
     padding-left: 40px;
 }
 
+.barra-de-pesquisa {
+    width: 500px;
+    height: 50px;
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
+.botao-pesquisa{
+    height: 50px;
+    margin-top: 14px;
+}
+
+#pesquisa {
+    font-family: "Overwatch";
+    flex: 1;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
 .container {
     background-color: #43484c;
     width: 1400px;
@@ -188,8 +213,8 @@ header img {
 #rodape-conteudo {
     font-family: "Overwatch";
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content:space-between;
+    align-items:flex-start;
     gap: 50px;
     max-width: 1200px;
     margin: auto;
