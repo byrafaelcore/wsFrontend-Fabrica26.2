@@ -94,3 +94,9 @@ O script `script.js` faz a requisição com `fetch`, cria e renderiza os cards d
 - Todos os direitos de imagens, informações dos personagens e marcas pertencem à criadora do Overwatch Blizzard Entertainment.
 - Este projeto foi desenvolvido para o processo seletivo da Fábrica de Software 2026.2 para o cargo de desenvolvedor frontend.
 - Este projeto está licenciado sob a **Licença MIT**.
+
+## Link da Aplicação 🌐
+
+```
+[https://overfast-api.tekrop.fr/heroes](https://ws-frontend-fabrica26-2-mu.vercel.app/)
+```
