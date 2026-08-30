@@ -292,3 +292,135 @@ header img {
 .rodape-direitos p {
     font-size: 15px;
 }
+
+@media (max-width: 1000px) {
+
+    header {
+        padding: 10px;
+    }
+
+    .logo img, header img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo h2, header h2 {
+        font-size: 40px;
+    }
+
+    nav li {
+        padding: 0 10px;
+    }
+
+    li, a {
+        font-size: 16px;
+    }
+
+    .banner-texto {
+        margin-top: 300px;
+    }
+
+    .banner-texto h1 {
+        font-size: 70px;
+    }
+
+    .banner-texto p {
+        font-size: 40px;
+    }
+
+    .barra-de-pesquisa {
+        width: 80%;
+    }
+
+    .container-personagens {
+        width: 90%;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(8, 380px);
+    }
+
+    .card {
+        width: 90%;
+        }
+
+}
+
+@media (max-width: 600px) {
+
+    header {
+        position: fixed;
+        flex-direction: column;
+        gap: 15px
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logo h2, header h2 {
+        font-size: 35px;
+    }
+
+    .banner {
+        height: 100vh;
+        background-position: center;
+
+    }
+
+    .banner-texto {
+        margin-top: 250px;
+        padding: 0 20px;
+    }
+
+    .banner-texto h1{
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .banner-texto p{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .titulo-personagens {
+        font-size: 32px;
+        padding: 30px 20px 0;
+        text-align: center;
+    }
+
+    .barra-de-pesquisa {
+        width: 90%;
+        height: 40px;
+        margin: 20px auto;
+    }
+
+    #pesquisa {
+        font-size: 16px;
+    }
+
+    .container-personagens {
+        width: 90%;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .card {
+        width: 280px;
+        height: 360px;
+    }
+
+    .card img{
+        width: 230px;
+        height: 230px;
+    }
+
+    #rodape {
+        padding: 40px 20px 20px;
+    }
+
+    #rodape-conteudo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+}
