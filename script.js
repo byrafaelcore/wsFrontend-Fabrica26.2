@@ -11,9 +11,9 @@ async function pegarDadosApi() {
 
 function mostrarHerois(listaDosHerois) {
 
-    const container = document.querySelector(".container");
+    const containerPersonagens = document.querySelector(".container-personagens");
 
-    container.innerHTML = "";
+    containerPersonagens.innerHTML = "";
     
     listaDosHerois.forEach(({ portrait, role, name, subrole }) => {
 
@@ -34,7 +34,7 @@ function mostrarHerois(listaDosHerois) {
 
         console.log(portrait);
 
-        container.appendChild(card);
+        containerPersonagens.appendChild(card);
 }
     )}
 
@@ -53,4 +53,4 @@ function pesquisarHerois(dadosDosHerois) {
     });
 }
 
-pegarDadosApi()
+pegarDadosApi();
