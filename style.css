@@ -163,8 +163,9 @@ header img {
 .card img {
     height: 250px;
     width: 250px;
-    background-color: white;
     border-radius: 20px;
+    background-color: #405275;
+    border: 2px solid white;
 }
 
 .card h3{
