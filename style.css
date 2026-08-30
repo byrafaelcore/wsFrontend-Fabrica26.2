@@ -36,6 +36,7 @@ li, a {
     text-decoration: none;
 }
 header{
+    font-family: "Overwatch";
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +50,6 @@ header{
 }
 
 header h2 {
-    font-family: "Overwatch";
     font-size: 50px;
     ;
 }
@@ -92,6 +92,7 @@ header img {
 }
 
 .banner-texto {
+    font-family: "Overwatch";
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +102,6 @@ header img {
 }
 
 .banner-texto h1 {
-    font-family: "Overwatch";
     font-size: 100px;
     color: #f99e1a;
 }
@@ -111,6 +111,10 @@ header img {
     font-size: 60px;
     text-align: center;
     color:#000000;
+}
+
+#personagens {
+    scroll-margin-top: 80px;
 }
 
 .titulo-personagens {
@@ -147,13 +151,13 @@ header img {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    box-shadow: 4px 4px 20px black;
 }
 
 .card:hover {
     transition: ease 0.3s;
     transform: scale(1.1);
-    box-shadow: 4px 4px 40px black;
-    z-index: 2;
+    box-shadow: 4px 4px 40px #f99e1a;
 }
 
 .card img {
@@ -181,6 +185,7 @@ header img {
 }
 
 #rodape-conteudo {
+    font-family: "Overwatch";
     display: flex;
     justify-content:center;
     align-items:center;
