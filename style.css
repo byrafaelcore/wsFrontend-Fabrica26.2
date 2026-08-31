@@ -10,8 +10,6 @@
     scroll-behavior: smooth;
 }
 
-@media (max-width: 1800px) {
-
 body {
     background-color: #218ffe;
 }
@@ -295,7 +293,6 @@ header img {
     font-size: 15px;
 }
 
-}
 
 @media (max-width: 1400px) {
 
